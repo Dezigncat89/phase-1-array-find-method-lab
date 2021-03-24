@@ -61,8 +61,8 @@
   ]
   
   //Use Find Method to Search Wins in Array
-  if (const Winresult = record.find(superbowlWin => superbowlWin.year === "1969");) {
-    return Winresult; 
+  if (const Winresult = record.find(superbowlWin => superbowlWin.year === "1969")); {
+    console.log(Winresult);
   }   else {
     console.log("undefined");
   }
